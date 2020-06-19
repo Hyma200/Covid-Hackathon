@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Corona Funding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>COVID-19</b> State Funding Analysis</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="WebAppServerlet" class="w3-bar-item w3-button">Graphs</a>
+      <a href="#about" class="w3-bar-item w3-button">About This Data</a>
+      <a href="#resources" class="w3-bar-item w3-button">Resources</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img src="covid_home.jpg" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>COVID-19 State Funding Analysis</b></span> </h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">WorldWide Covid-19 Data </h3>
+    <p>Confirmed Cases: 8,242,998              Deaths: 445,535</p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">United States </h3>
+    <p>Confirmed Cases: 2,235,934             Deaths: 120,250</p>
+  </div>
+    
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About This Data</h3>
+    <p><b>It Changes Rapidly</b></p>
+    <p>This data changes rapidly and might not reflect some cases still reported.
+    </p>
+    <p><b>It Only Includes People Tested</b></p>
+    <p>Cases only include people who were tested and confirmed positive. 
+        Testing availability vary by state. 
+        Some areas may not have data because they haven’t 
+        published their data or haven’t done so recently.
+    </p>
+    <p><b>It's just a bunch of approximations</b></p>
+    <p>Data was mostly gathered using external websites containing information about reported
+    covid cases and estimates of the number of staff available in each hospital to determine the 
+    cost of PPE for medical staff and ventilators for patients suffering with sever symptoms of covid-19.<p>
+    <p><b>Different sources present different data </b></p>    
+    <p>There are various sources that are tracking and updating coronavirus data.
+    Therefore, sources may update at different times and may have different ways of gathering data.</p>
+  </div>
+  
+   <!-- Resources Section -->
+  <div class="w3-container w3-padding-32" id="resources">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Resources</h3>
+    <p><b>https://www.mcknights.com/news/analysis-ppe-costs-increase-over-1000-during-covid-19-crisis/</b></p>
+    <p>Average cost of PPE during Covid 19 for medical staff</p>
+    <p><b>https://www.ahd.com/state_statistics.html</b></p>
+    <p>Amount of medical staff available in each state approximated from number of beds available</p>
+    <p><b>https://news.google.com/covid19/map?hl=en-US&mid=%2Fm%2F09c7w0&gl=US&ceid=US%3Aen</b></p>
+    <p>Google Statistics where data about confirmed cases, deaths, recoveries, etc. was gathered</p>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Please let us know if there should be any other data we should consider implementing into our cost function for each state.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="State" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Funding and why we should consider it" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by Girls In Tech Virtual Hackathon</p>
+</footer>
+
+</body>
+</html>
